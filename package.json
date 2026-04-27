@@ -1,0 +1,24 @@
+{
+  "name": "react-loading-storybook-patterns",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^10.3.5",
+    "@storybook/react": "^10.3.5",
+    "@storybook/react-webpack5": "^10.3.5",
+    "@storybook/test": "^10.3.5",
+    "@types/react": "^19.2.14",
+    "storybook": "^10.3.5",
+    "ts-loader": "^9.5.4",
+    "typescript": "^5.6.0"
+  },
+  "dependencies": {
+    "fetch-network-simulator": "^1.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
